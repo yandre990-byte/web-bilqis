@@ -5,7 +5,7 @@ const messages = [
     "Versi kamu hari ini—meski capek dan berantakan—tetap layak dicintai.",
     "Kamu udah sejauh ini. Tolong jangan sepelekan seberapa kuat kamu bertahan.",
     "Pelan aja nggak apa-apa. Yang penting kamu nggak berhenti sayang sama diri sendiri.",
-    "Capek boleh, nyerah jangan dulu. Dunia masih butuh senyum kamu yang aneh tapi bikin candu itu."
+    "Capek boleh, nyerah jangan dulu. Dunia masih butuh senyum kamu yang bikin candu itu."
 ];
 
 const btn = document.getElementById("btnPesan");
@@ -21,3 +21,4 @@ btn.addEventListener("click", () => {
         box.classList.remove("active");
     }, 700);
 });
+
